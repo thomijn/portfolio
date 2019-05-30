@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=BenchNine:700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 
-.App {  
+.App {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,110 @@
   color: #61dafb;
 }
 
-img {
+.text {
+  width: 500px;
+  height: 1500px;
+}
+
+.header {
+  width: 100%;
+  height: 1000px;
+}
+
+.headerimg {
+  width: 100%;
+  position: absolute;
+  height: 1000px;
+  /* background-image: url(./assets/desk.svg);
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: auto 700px;
+  background-repeat: no-repeat; */
+  -webkit-clip-path: polygon(
+    7% 10%,
+    53% 10%,
+    53% 31%,
+    36% 31%,
+    36% 86%,
+    23% 86%,
+    23% 31%,
+    7% 31%
+  );
+  clip-path: polygon(
+    7% 10%,
+    53% 10%,
+    53% 31%,
+    36% 31%,
+    36% 86%,
+    23% 86%,
+    23% 31%,
+    7% 31%
+  );
+  background-color: #9bc5de;
+}
+
+.headerimg .image-1 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 100px;
+  max-width: 80%;
+  max-height: 80%;
+  margin-left: 15%;
+}
+
+.headerimg .image-2 {
+  position: relative;
+  margin-top: -10px;
+  margin-right: auto;
+  width: auto;
+  height: 210px;
+  max-width: 80%;
+  max-height: 80%;
+  margin-left: 35%;
+}
+.headerimg .image-3 {
+  position: relative;
+  margin-top: 10px;
+  margin-right: auto;
+  width: auto;
+  height: 75px;
+  max-width: 80%;
+  max-height: 80%;
+  margin-left: 25%;
+}
+.headerimg .image-4 {
+  position: relative;
+  margin-top: 30px;
+  margin-right: auto;
+  width: auto;
+  height: 125px;
+  max-width: 80%;
+  max-height: 80%;
+  margin-left: 30%;
+}
+.headerimg .image-5 {
+  position: relative;
+  margin-top: 120px;
+  margin-right: auto;
+  width: auto;
+  height: 60px;
+  max-width: 80%;
+  max-height: 80%;
+  margin-left: 30%;
+}
+.headerimg .image-6 {
+  position: relative;
+  margin-top: 100px;
+  margin-right: auto;
+  width: auto;
+  height: 150px;
+  max-width: 80%;
+  max-height: 80%;
+  margin-left: 20%;
+}
+header {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -26,26 +129,6 @@ img {
   -webkit-animation: slide-in-left 1.8s forwards;
 }
 
-.text{
-  width: 500px;
-  height: 1500px;
-}
-
-header{
-  width: 100%;
-  display: inline-block;
-
-}
-
-.headerimg {
-  position: relative;
-  height: 600px;
-  background-image: url(./assets/01.jpg);
-  background-position: top center;
-  background-attachment: fixed;
-  background-size: auto 700px
-}
-
 .word {
   display: block;
   text-align: justify;
@@ -53,36 +136,39 @@ header{
   line-height: 0.8;
   text-transform: uppercase;
   letter-spacing: 0px;
-  font-size: 70pt;
-  transform: translateX(-100%);
+  font-size: 80pt;
+  transform: translateX(200%);
 }
 
 .word1 {
-  animation: slide-in-left 1.8s forwards;
-  -webkit-animation: slide-in-left 1.8s forwards;
+  animation: slide-in-left 1s forwards;
+  -webkit-animation: slide-in-left 1s forwards;
   color: #9bc5de;
 }
 
 .word2 {
-  animation: slide-in-left 1.4s forwards;
-  -webkit-animation: slide-in-left 1.4s forwards;
+  animation: slide-in-left 1.2s forwards;
+  -webkit-animation: slide-in-left 1.2s forwards;
   color: #9bc5de;
 }
 
 .word3 {
-  animation: slide-in-left 1s forwards;
-  -webkit-animation: slide-in-left 1s forwards;
-}
-
-.words {
-  margin-top: 100px;
+  animation: slide-in-left 1.4s forwards;
+  -webkit-animation: slide-in-left 1.4s forwards;
+  font-size: 50pt;
 }
 
 .wrapper {
-  width: auto;
   margin: 50px auto;
-  margin-right: 50px;
-  position: relative;
+  position: absolute;
+  right: 150px;
+  top: 200px;
+}
+
+.about {
+  text-align: center;
+  font-family: "BenchNine";
+  font-size: 60pt;
 }
 
 @keyframes slide-in-left {

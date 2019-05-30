@@ -6,6 +6,7 @@
     "@material-ui/core": "^4.0.1",
     "material-ui": "^1.0.0-beta.47",
     "react": "^16.8.6",
+    "react-awesome-button": "^6.1.2",
     "react-dom": "^16.8.6",
     "react-parallax": "^2.2.0",
     "react-scripts": "3.0.1",
