@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=BenchNine:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+.App {  
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 550px;
+  transform: translateX(200%);
+  animation: slide-in-left 1.8s forwards;
+  -webkit-animation: slide-in-left 1.8s forwards;
+}
+
+.text{
+  width: 500px;
+  height: 1500px;
+}
+
+header{
+  width: 100%;
+  display: inline-block;
+
+}
+
+.headerimg {
+  position: relative;
+  height: 600px;
+  background-image: url(./assets/01.jpg);
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: auto 700px
+}
+
+.word {
+  display: block;
+  text-align: justify;
+  font-family: "BenchNine";
+  line-height: 0.8;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-size: 70pt;
+  transform: translateX(-100%);
+}
+
+.word1 {
+  animation: slide-in-left 1.8s forwards;
+  -webkit-animation: slide-in-left 1.8s forwards;
+  color: #9bc5de;
+}
+
+.word2 {
+  animation: slide-in-left 1.4s forwards;
+  -webkit-animation: slide-in-left 1.4s forwards;
+  color: #9bc5de;
+}
+
+.word3 {
+  animation: slide-in-left 1s forwards;
+  -webkit-animation: slide-in-left 1s forwards;
+}
+
+.words {
+  margin-top: 100px;
+}
+
+.wrapper {
+  width: auto;
+  margin: 50px auto;
+  margin-right: 50px;
+  position: relative;
+}
+
+@keyframes slide-in-left {
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slide-in-right {
+  100% {
+    transform: translateX(0%);
+  }
+}
