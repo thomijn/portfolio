@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.74fb2fc5.chunk.css",
+    "main.js": "/portfolio/static/js/main.3b11ef27.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3b11ef27.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
+    "static/js/2.88ed0e91.chunk.js": "/portfolio/static/js/2.88ed0e91.chunk.js",
+    "static/js/2.88ed0e91.chunk.js.map": "/portfolio/static/js/2.88ed0e91.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.24d3d2a68c40fb55ab4df7b283bd8121.js": "/portfolio/precache-manifest.24d3d2a68c40fb55ab4df7b283bd8121.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.74fb2fc5.chunk.css.map": "/portfolio/static/css/main.74fb2fc5.chunk.css.map",
+    "static/media/Fotografie.png": "/portfolio/static/media/Fotografie.28110db8.png",
+    "static/media/api.svg": "/portfolio/static/media/api.4f0cb6fb.svg",
+    "static/media/browser.svg": "/portfolio/static/media/browser.040061ad.svg",
+    "static/media/coding.svg": "/portfolio/static/media/coding.0f781310.svg",
+    "static/media/css.svg": "/portfolio/static/media/css.4f9da25b.svg",
+    "static/media/desktop.svg": "/portfolio/static/media/desktop.2ff85611.svg",
+    "static/media/develop.svg": "/portfolio/static/media/develop.012e5410.svg",
+    "static/media/dierenambulance.png": "/portfolio/static/media/dierenambulance.1eca16c4.png",
+    "static/media/hsn.png": "/portfolio/static/media/hsn.e4e45913.png",
+    "static/media/monsterhunters.png": "/portfolio/static/media/monsterhunters.245c8de6.png",
+    "static/media/thomas.jpg": "/portfolio/static/media/thomas.33d4a3a2.jpg",
+    "static/media/traptrivia.png": "/portfolio/static/media/traptrivia.82f21120.png",
+    "static/media/uix.svg": "/portfolio/static/media/uix.55eb5dad.svg",
+    "static/media/vuurvechter.png": "/portfolio/static/media/vuurvechter.e596609c.png"
+  }
+}
